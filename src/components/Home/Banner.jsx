@@ -5,8 +5,8 @@ function Banner() {
     return (
         <div className='h-screen md:h-[60vh] lg:h-screen relative overflow-hidden'>
             {/*<video src='video-landing.mp4' autoPlay loop muted className='aspect-video object-cover h-full w-full absolute brightness-90 contrast-150 animate-zoom'></video>*/}
-            <div className='bg-cover md:bg-contain bg-no-repeat bg-right bg-[url(bg-landing.jpeg)] w-full h-full bottom-0 absolute animate-zoom'
-            style={window.innerWidth <=1100 ? {filter: 'brightness(0.5) contrast(1.2)'} : {}}/>
+            <div className='bg-cover md:bg-contain bg-no-repeat bg-right w-full h-full bottom-0 absolute animate-zoom'
+            style={window.innerWidth <=1100 ? {filter: 'brightness(0.5) contrast(1.2)', backgroundImage:`url(bg-landing.jpeg)`} : {backgroundImage:`url(bg-landing.jpeg)`}}/>
             <div className='h-full w-full flex flex-col md:grid md:grid-rows-2 lg:flex lg:flex-col lg:bg-white relative z-10 justify-center'
             style={window.innerWidth >=1100 ? {clipPath: 'polygon(0 0, 72% 0, 47% 100%, 0% 100%)'} : {}}>
                 <Header/>

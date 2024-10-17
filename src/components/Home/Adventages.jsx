@@ -9,7 +9,8 @@ function Adventages() {
                 autoplay="{delay:5000}"
             >
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('bg-landing.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(bg-landing.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
@@ -23,7 +24,8 @@ function Adventages() {
                 </swiper-slide>
 
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('lajas/l9.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(lajas/l9.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
@@ -37,7 +39,8 @@ function Adventages() {
                 </swiper-slide>
 
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('lajas/l10.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(lajas/l10.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
@@ -51,7 +54,8 @@ function Adventages() {
                 </swiper-slide>
 
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('lajas/l7.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(lajas/l7.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
@@ -65,7 +69,8 @@ function Adventages() {
                 </swiper-slide>
 
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('lajas/l5.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(lajas/l5.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
@@ -79,7 +84,8 @@ function Adventages() {
                 </swiper-slide>
 
                 <swiper-slide>
-                    <div className="relative bg-center bg-cover bg-[url('lajas/l6.jpeg')] h-[60vh] w-full flex items-center rounded-full">
+                    <div className="relative bg-center bg-cover h-[60vh] w-full flex items-center rounded-full"
+                    style={{backgroundImage: `url(lajas/l6.jpeg)`}}>
                         <div className="absolute inset-0 w-3/4 flex items-center justify-start
                         bg-gradient-to-r from-black via-black to-transparent">
                             <div data-aos="flip-right" className="p-8 text-white max-w-lg">
