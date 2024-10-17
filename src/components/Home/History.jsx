@@ -2,7 +2,7 @@ import React from 'react'
 
 function History() {
     return (
-        <div data-aos="zoom-in-left" className='bg-center bg-cover md:bg-[url(lajas/background.jpeg)] h-fit md:h-[80vh] mt-12 flex items-center justify-center p-3 relative'>
+        <div data-aos="zoom-in-left" className='bg-center bg-cover md:bg-[url(./lajas/background.jpeg)] h-fit md:h-[80vh] mt-12 flex items-center justify-center p-3 relative'>
             <div data-aos="zoom-in-right" className='w-full bg-white h-full grid md:grid-cols-12 items-center gap-2 md:absolute'
                 style={window.innerWidth >=1100 ? { clipPath: "polygon(20% 0%, 80% 0%, 100% 100%, 40% 100%)" } : {}}>
                 <h1 data-aos="fade-up" className='text-8xl text-green-900 font-caveat md:col-start-5 md:col-span-5'>Historia</h1>
