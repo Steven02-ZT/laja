@@ -15,7 +15,7 @@ export default function Header() {
                 <div className="flex items-center justify-between flex-wrap h-24">
                     <div className="flex items-center">
                         <a href="/" className="text-2xl font-bold text-primary">
-                            <div className="bg-center bg-contain bg-[url(logo.png)] w-56 h-24 bg-no-repeat"></div>
+                            <div className="bg-center bg-contain w-56 h-24 bg-no-repeat" style={{backgroundImage:`url(logo.png)`}}></div>
                         </a>
                     </div>
                     <nav className="hidden md:flex space-x-4">
