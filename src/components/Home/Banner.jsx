@@ -17,9 +17,9 @@ function Banner() {
                             <h1 className='w-full '>Transforma tus Espacios con Laja Natural de Alta Calidad</h1>
                         </div>
                     </div>
-                    <p className='text-justify text-white lg:text-gray-800 w-full pl-3 text-2xl  font-raleway'>Mejora cualquier espacio con materiales de alta calidad y un servicio personalizado. <br/> ¡Contáctanos y dale a tus proyectos el toque natural que merecen!</p>
-                    <a href="https://wa.me/50373984820" className='border rounded-full p-1.5 bg-black/30 text-white font-raleway text-xl w-3/5 ml-3 font-light
-                    hover:bg-green-600 hover:text-white text-center hover:scale-110'>Contactanos</a>
+                    <p className='text-justify text-white lg:text-gray-800 w-full pl-3 text-base md:text-2xl  font-raleway'>Mejora cualquier espacio con materiales de alta calidad y un servicio personalizado. <br/> ¡Contáctanos y dale a tus proyectos el toque natural que merecen!</p>
+                    {window.innerWidth >= 1100 && (<a href="https://wa.me/50373984820" className='border rounded-full p-1.5 bg-black/30 text-white font-raleway text-xl w-3/5 ml-3 font-light
+                    hover:bg-green-600 hover:text-white text-center hover:scale-110'>Contactanos</a>)}
                 </div>
             </div>
         </div>
